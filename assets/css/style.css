@@ -1,0 +1,131 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(250, 158, 97);
+}
+
+.splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ceab8f;
+  color: #fcbd12;
+  padding: 15px 30px;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.content {
+  text-align: center;
+}
+
+.price-table {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.price-table th,
+.price-table td {
+  padding: 8px;
+  text-align: center;
+}
+
+.price-table th {
+  background-color: #9bbddd;
+}
+
+.price-table tr:nth-child(even) {
+  background-color: #9bbddd;
+}
+
+.form {
+  width: 70%;
+  text-align: center;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.btn-tambah {
+  width: 25%;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: #428bca;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-tambah:hover {
+  background-color: #5bc0de;
+}
+
+.content-image-profile .frame-image {
+  margin: 10px;
+  background-color: #757778;
+  border-radius: 100%;
+}
+
+.daftarlaundry {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.laundryTable {
+  display: none;
+  width: 100%;
+}
+
+.laundryTable th,
+.laundryTable td {
+  padding: 5px;
+  text-align: center;
+}
+
+.laundryTable th {
+  background-color: rgb(74, 213, 238)
+}
+
+.laundryTable tr:nth-child(even) {
+  background-color: rgb(74, 213, 238);
+}
+
+.totalHarga {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#totalHarga {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

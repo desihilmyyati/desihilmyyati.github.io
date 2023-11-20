@@ -1,0 +1,27 @@
+{
+  "name": "App My Laundry",
+  "short_name": "MyLaundry",
+  "description": "Aplikasi MyLaundry",
+  "icons": [
+    {
+      "src": "assets/image/mylaundry.png",
+      "sizes": "500x130",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/image/mylaundry2.png",
+      "sizes": "500x130",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/image/favicon.png",
+      "sizes": "500x500",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#c1efff",
+  "background_color": "#88ddff",
+  "prefer_related_applications": false
+}

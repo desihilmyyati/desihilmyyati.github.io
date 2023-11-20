@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Laundry</title>
+    <link rel="icon" href="assets/image/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div class="splash" id="splash">
+        <img src="assets/image/mylaundry.png" alt="MyLaundry" width="250px">
+    </div>
+
+    <nav class="navbar" id="navbar" style="display: none;">
+        <div class="logo">
+            <img src="assets/image/mylaundry2.png" alt="My Laundry">
+            <div class="nav-icons">
+                <a href="#" class="admin"><img src="assets/image/admin.png" alt="Admin"></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content" id="content" style="display: none;">
+        <h4>Daftar Harga Laundry :</h4>
+        <table class="price-table">
+            <tr>
+                <th>Jenis</th>
+                <th>Harga per Kg</th>
+            </tr>
+            <tr>
+                <td>Baju</td>
+                <td>Rp.5.000</td>
+            </tr>
+            <tr>
+                <td>Celana</td>
+                <td>Rp.7.000</td>
+            </tr>
+            <tr>
+                <td>Handuk</td>
+                <td>Rp.10.000</td>
+            </tr>
+            <tr>
+                <td>Selimut</td>
+                <td>Rp.17.000</td>
+            </tr>
+            <tr>
+                <td>Sepatu</td>
+                <td>Rp.20.000</td>
+            </tr>
+        </table><br>
+        <form>
+            <input class="form" type="text" name="jenis" placeholder="Masukan Jenis Laundry" /><br>
+            <input class="form" type="number" name="berat" placeholder="Masukan Berat Laundry" /><br><br>
+            <button type="button" class="btn-tambah" onclick="tambahLaundry()">Hitung</button>
+        </form><br>
+        <div class="daftarlaundry" id="daftarlaundry">
+            <table class="laundryTable" id="laundryTable">
+                <thead>
+                    <tr>
+                        <th>Jenis</th>
+                        <th>Berat (Kg)</th>
+                        <th>Harga</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody id="laundryList"></tbody>
+            </table>
+        </div>
+        <div class="totalHarga" id="totalHarga">
+        </div>
+    </div><br>
+
+
+
+    <script src="assets/js/splashscreen.js"></script>
+    <script src="assets/js/admin.js"></script>
+    <script src="assets/js/register.js"></script>
+    <script src="laundry.js"></script>
+    <script src="service-worker.js"></script>
+</body>
+
+</html>
